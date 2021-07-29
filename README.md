@@ -7,7 +7,7 @@ Example:
 Use it as modules:
 
 module "server" {
-    source = "/data/Gagandeep/app3"
+    source = "/data/Gagandeep/app3" \n
     ami = "ami-00399ec92321828f5"
 }
  or you can passon parameter for Instance type as well:
